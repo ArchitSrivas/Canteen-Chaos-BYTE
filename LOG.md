@@ -35,7 +35,7 @@ order screen round in different places.
 
 ## CC-0X — "<the complaint, in short>"
 
-**Reproduced:**
+**Reproduced:** Searched for Pizza in search bar , suggestion box was appearing behind the cat-tabs and hence first suggestion was not visible  
 
 **Cause:**
 
