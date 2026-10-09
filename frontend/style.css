@@ -334,7 +334,7 @@ h1, h2, h3 { margin: 0; }
 }
 
 .qty-btn.small { width: 26px; height: 26px; font-size: 14px; }
-.qty-value { min-width: 22px; text-align: center; font-weight: 600; }
+.qty-value { min-width: 22px; text-align: center; font-weight: 600; color: var(--name-btn);}
 
 .add-btn {
   width: 100%;
