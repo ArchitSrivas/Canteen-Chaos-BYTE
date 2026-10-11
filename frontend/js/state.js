@@ -98,8 +98,7 @@ function setQty(dish, qty) {
   const next = Math.max(0, Math.floor(qty));
   const dishObj = state.dishes.find(d => d.id == id);
   const stckQty = dishObj.stock;
-
-
+  
   if (next > MAX_PER_DISH) return { ok: false, qty: cartQty(id), reason: `Max ${MAX_PER_DISH} of one dish` };
   if(next > stckQty) return {ok: false, qty: cartQty(id), reason: `Only ${stckQty} left in the counter`};
   if (next === 0) delete state.cart[id];
