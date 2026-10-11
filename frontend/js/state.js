@@ -1,3 +1,4 @@
+
 /* state.js - the one place the app keeps what it knows.
    Other modules read `state` and call these functions; nothing writes
    state.cart directly. Every change emits an event so the views can
@@ -90,11 +91,17 @@ function saveCart() {
  * Change the quantity of one dish.
  * Returns { ok, qty, reason } - the caller decides what to say.
  */
+
+
 function setQty(dish, qty) {
   const id = Number(dish.id);
   const next = Math.max(0, Math.floor(qty));
+  const dishObj = state.dishes.find(d => d.id == id);
+  const stckQty = dishObj.stock;
+
 
   if (next > MAX_PER_DISH) return { ok: false, qty: cartQty(id), reason: `Max ${MAX_PER_DISH} of one dish` };
+  if(next > stckQty) return {ok: false, qty: cartQty(id), reason: `Only ${stckQty} left in the counter`};
   if (next === 0) delete state.cart[id];
   else state.cart[id] = next;
 
