@@ -32,6 +32,7 @@ router.get(
         minOrder: c.minOrder,
         vegOnly: c.vegOnly,
         usesLeft: c.usesLeft,
+        expiresAt: c.expiresAt
       })),
     });
   })
