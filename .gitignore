@@ -42,3 +42,9 @@ tmp/
 
 BUGS.md
 BUG_LOG_OLD.md
+
+# backend runtime data
+backend/data/orders.json
+backend/data/ratings.json
+backend/data/members.json
+backend/data/*.tmp
