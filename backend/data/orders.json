@@ -1,0 +1,53 @@
+[
+  {
+    "token": "CC-5407",
+    "idempotencyKey": "idem-mv47grop-duxn5u",
+    "memberId": "dev-lyr59r26",
+    "items": [
+      {
+        "dishId": 12,
+        "name": "Dal Tadka Thali",
+        "price": 73,
+        "veg": true,
+        "category": "Lunch",
+        "tags": [
+          "jain-available"
+        ],
+        "qty": 3,
+        "lineTotal": 219
+      }
+    ],
+    "subtotal": 219,
+    "comboDiscount": 0,
+    "couponCode": null,
+    "couponDiscount": 0,
+    "pointsRedeemed": 0,
+    "pointsValue": 0,
+    "foodTotal": 219,
+    "packing": 15,
+    "rushSurcharge": 0,
+    "gst": 11.7,
+    "tip": 0,
+    "total": 245.7,
+    "pointsEarned": 10,
+    "hostelRoom": null,
+    "pickupSlot": "17:15",
+    "note": null,
+    "status": "cancelled",
+    "manual": false,
+    "rated": false,
+    "history": [
+      {
+        "status": "placed",
+        "at": "2026-10-11T19:17:47.289Z"
+      },
+      {
+        "status": "cancelled",
+        "at": "2026-10-11T19:17:53.255Z"
+      }
+    ],
+    "placedAt": "2026-10-11T19:17:47.289Z",
+    "updatedAt": "2026-10-11T19:17:53.255Z",
+    "etaMinutes": 8
+  }
+]
