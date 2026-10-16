@@ -19,7 +19,7 @@ let suggestIndex = -1;
 
 async function loadMenu({ append = false } = {}) {
   const myRequest = ++menuRequestId;
-  
+
   if (append) {
     loadMoreBtn.textContent = 'Loading...';
     loadMoreBtn.disabled = true;
@@ -30,7 +30,7 @@ async function loadMenu({ append = false } = {}) {
   }
 
   try {
-     data = await api.getMenu({
+    const data = await api.getMenu({
       veg: state.filters.veg,
       q: state.filters.q,
       category: state.filters.category,

@@ -243,7 +243,7 @@ h1, h2, h3 { margin: 0; }
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  overflow: clip;
+  overflow: auto;
   box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
