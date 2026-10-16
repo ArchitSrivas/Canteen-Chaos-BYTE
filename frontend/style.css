@@ -1036,7 +1036,6 @@ body.is-offline .site-header { filter: grayscale(0.4); }
 
   .dish-card::after,
   .img-wrap::after {
-    content: "";
     position: absolute;
     background: transparent;
     transition: background 0.2s;
